@@ -12,7 +12,7 @@
 * 打开config/server.properties配置文件
 * 把31行的注释去掉，listeners=PLAINTEXT://:9092
 * 把36行的注释去掉，把advertised.listeners值改为PLAINTEXT://host_ip:9092（我的服务器ip是192.168.1.33）
-
+  ![avatar](https://github.com/LeisurelyYang/kafka-study/blob/master/file/server-config.jpg)
  
 ### 4.启动
 1. 启动ZooKeeper >bin/zookeeper-server-start.sh config/zookeeper.properties
